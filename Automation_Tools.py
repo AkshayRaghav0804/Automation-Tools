@@ -11,7 +11,7 @@ def main():
 
     # Display logo at the top
     if logo_path.exists():
-        st.image(str(logo_path), width=275)
+        st.image(str(logo_path), width=375)
     else:
         st.warning("Logo file not found. Please place 'kkc logo.png' in the assets directory.")
 
